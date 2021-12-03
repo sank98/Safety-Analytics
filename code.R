@@ -8,7 +8,7 @@ library(e1071)
 library(DMwR)
 
 # reading data and summary
-dr <- read.csv("Reactive data after missing imputation1.csv", sep=",", header = TRUE)
+dr <- read.csv("Reactive data after missing imputation.csv", sep=",", header = TRUE)
 dr$Injury_risk = NULL
 dr$X = NULL
 
